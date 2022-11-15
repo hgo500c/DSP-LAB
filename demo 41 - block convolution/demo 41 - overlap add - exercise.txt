@@ -1,0 +1,25 @@
+
+
+1) Use Matlab to implement the Overlap-Add Convolution Algorithm for the following input signal and impulse response.
+
+audio_recording_8kHz.wav   (INPUT SIGNAL)
+
+impulse_response_8kHz.wav   (IMPULSE RESPONSE)
+
+output_8kHz.wav  (OUTPUT SIGNAL)
+
+In your overlap-add convolution algorithm, the convolution should be computed using the FFT. I suggest using a block length of 4096.
+
+The data is located in the file 'acoustic impulse response.zip'
+
+The Overlap-Add Convolution Algorithm is described in the pdf file 'overlap block conv.pdf'
+
+You should verify that your overlap-add algorithm gives the same result as the Matlab 'conv' function. 
+
+This impulse response data is adapted from data on the 'OpenAIR – Open Air Library' Website: https://www.openair.hosted.york.ac.uk
+
+2) Use Python to do the above exercise.
+
+
+
+
